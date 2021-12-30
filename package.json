@@ -1,0 +1,8 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:rafaelsilvamenezes1997/adopt-hapiness-api.git",
+  "author": "Rafael Silva Menezes <rafasilva320.rs@gmail.com>",
+  "license": "MIT"
+}
