@@ -9,7 +9,7 @@
     "skipLibCheck": true,
 
     "moduleResolution": "node",
-    "rootDir": "src",
+    "rootDirs": ["src"],
     "baseUrl": "src",
     "outDir": "dist",
     "paths": {
