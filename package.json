@@ -27,7 +27,7 @@
     "prepare": "husky install",
     "lint": "eslint .",
     "lint:fix": "npm run lint -- --fix",
-    "commit": "cz"
+    "commit": "git-cz"
   },
   "config": {
     "commitizen": {
