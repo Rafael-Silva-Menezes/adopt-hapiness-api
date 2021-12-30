@@ -1,9 +1,27 @@
 {
   "compilerOptions": {
-    "outDir": "./dist",
     "module": "ESNext",
     "target": "ESNext",
     "esModuleInterop": true,
-    "allowJs": true
+    "allowJs": true,
+    "incremental": true,
+    "sourceMap": true,
+    "skipLibCheck": true,
+
+    "moduleResolution": "node",
+    "rootDir": "src",
+    "baseUrl": "src",
+    "outDir": "dist",
+    "paths": {
+      "@/*": ["*"],
+    },
+
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "noImplicitOverride": true,
+    "removeComments": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+
   }
-}
+  }
