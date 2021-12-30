@@ -1,9 +1,4 @@
-.husky
-.vscode
-coverage
-dist
-documentation
-node_modules
-public
 **/*.js
+node_modules
+dist
 /*.js
